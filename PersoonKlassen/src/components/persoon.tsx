@@ -18,7 +18,7 @@ function Persoon({ data }: props) {
   return (
     <>
       {/* hier maak ik een div aan waar al je data in komt vna je naam en klassen */}
-      <div className="list-group-item">
+      <div className="list-group-item ">
         {/* hier steek ik de naam er in door het te laten renderen */}
         <h1>Naam : {naam}</h1>
         {/* hier maak ik een list waar al je klassen in gaan komen door gebruik te maken van map die alle klassen in klassen zal appart paken en er zal insteken. */}
